@@ -37,11 +37,12 @@ This repository contains the code and documentation for an **Advanced Driver Ass
 
 ```
 ├── ADAS_Code
-│   ├── driver_state_detection.py       # Driver state detection (drowsiness, yawning, etc.)
-│   ├── lane_detection.py               # Lane detection algorithm
-│   ├── object_detection.py             # Collision alert and object detection
-│   ├── seatbelt_smoking_detection.py   # Detects seatbelt usage and smoking
-│   ├── utils.py                        # Helper functions and utilities
+│   ├── driver_state_detection.py                     # Driver state detection (drowsiness, yawning, etc.)
+│   ├── driver_state+object_detection+smoking.py      # Integrated driver state, object, and smoking detection
+│   ├── lane_detection.py                             # Lane detection algorithm
+│   ├── object_detection.py                           # Collision alert and object detection
+│   ├── smoking_detection.py                          # Detects seatbelt usage and smoking
+│   ├── utils.py                                      # Helper functions and utilities
 ├── models                              # Pre-trained and custom-trained models (YOLO, TensorFlow)
 ├── data                                # Sample data and datasets used for training and validation
 ├── README.md                           # Project documentation (this file)
